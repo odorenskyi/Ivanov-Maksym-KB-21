@@ -8,4 +8,5 @@ double c_calculation(double x, double y)
     return S;
 }
 
+
 #endif // MODULESIVANOV_H_INCLUDED
