@@ -10,7 +10,7 @@ using namespace std;
 void Greeting()
 {
     cout << "Ivanov Max ";
-    std::wcout << L"\x00A9" << endl;
+    wcout << L"\x00A9" << endl;
 }
 
 void AandB(double a, double b)
