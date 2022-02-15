@@ -5,29 +5,36 @@ using namespace std;
 
 int main()
 {
-    double x, y, z, res;
-    int i = 1;
-    while(i == 1)
+
+    double input[5], res[5];
+    for(int i = 0; i < 5; i++)
     {
-    cout << "Enter x:";
-    cin >> x;
-    cout << "Enter y:";
-    cin >> y;
-    cout << "Enter z:";
-    cin >> z;
-    cout << "Enter res:";
-    cin >> res;
-    cout << c_calculation(x, y) << endl;
-    if (c_calculation(x, y) != res)
+        double x, y, z;
+        cout << "Test Case: " << i+1 << endl;
+        cout << "Enter x:";
+        cin >> x;
+        cout << "Enter y:";
+        cin >> y;
+        cout << "Enter z:";
+        cin >> z;
+        cout << "Enter res:";
+        cin >> input[i];
+        res[i] = c_calculation(x,y);
+    }
+
+    for(int i = 0; i < 5; i++)
     {
-        cout << "FAILED" << endl;
+        if (input[i] == res[i])
+        {
+            cout << "PASSED" << endl;
+        }
+        else
+        {
+            cout << "FAILED" << endl;
+        }
     }
-    else
-    {
-        cout << "PASSED" << endl;
-    }
-    cout << "Enter i:";
-    cin >> i;
-    }
+
+
+
     return 0;
 }
