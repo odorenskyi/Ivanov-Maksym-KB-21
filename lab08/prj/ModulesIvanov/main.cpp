@@ -1,3 +1,4 @@
+#include <cmath>
 double c_calculation(double x, double y)
 {
     double S;

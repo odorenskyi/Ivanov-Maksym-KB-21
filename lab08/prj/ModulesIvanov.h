@@ -1,6 +1,6 @@
+#include <cmath>
 #ifndef MODULESIVANOV_H_INCLUDED
 #define MODULESIVANOV_H_INCLUDED
-
 double c_calculation(double x, double y)
 {
     double S;
