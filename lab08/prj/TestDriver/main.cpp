@@ -26,11 +26,12 @@ int main()
     {
         if (input[i] == res[i])
         {
-            cout << "PASSED" << endl;
+            cout << "FAILED" << endl;
         }
         else
         {
-            cout << "FAILED" << endl;
+            cout << input[i] << " = " << res[i] << endl;
+            cout << "PASSED" << endl;
         }
     }
 
