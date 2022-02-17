@@ -20,7 +20,6 @@ int main()
                         35.941760};
 
 
-    cout << "\t\tTestDriver of ModulesKozlov.a" << endl;
     for (int i = 0; i < 5; i++) {
         cout << resetiosflags(ios::fixed) << "TC_" << setfill('0') << setw(2) << i+1 << ":|" << setfill(' ');
         cout << "x = " << setw(5) << left << input[i][0];
