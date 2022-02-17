@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1644918021 source:c:\users\axiom\desktop\Что-то нужное\bmtp_labs\ivanov-maksym-kb-21\lab08\prj\testdriver\main.cpp
+1645093229 source:c:\users\axiom\desktop\Что-то нужное\bmtp_labs\ivanov-maksym-kb-21\lab08\prj\testdriver\main.cpp
 	<iostream>
+	<iomanip>
 	<cmath>
 	"ModulesIvanov.h"
 

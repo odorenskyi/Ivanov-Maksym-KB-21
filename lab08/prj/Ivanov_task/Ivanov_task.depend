@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1644616928 source:c:\users\axiom\desktop\Что-то нужное\bmtp_labs\ivanov-maksym-kb-21\lab08\prj\ivanov_task\main.cpp
+1645093745 source:c:\users\axiom\desktop\Что-то нужное\bmtp_labs\ivanov-maksym-kb-21\lab08\prj\ivanov_task\main.cpp
 	<iostream>
-	<cmath>
-	<ModulesIvanov.h>
+	"ModulesIvanov.h"
+	<locale>
+	<locale.h>
+	<windows.h>
 
-1644615908 c:\users\axiom\desktop\Что-то нужное\bmtp_labs\ivanov-maksym-kb-21\lab08\prj\modulesivanov.h
+1644962361 c:\users\axiom\desktop\Что-то нужное\bmtp_labs\ivanov-maksym-kb-21\lab08\prj\modulesivanov.h
+	<cmath>
 

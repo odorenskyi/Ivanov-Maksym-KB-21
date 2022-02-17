@@ -6,7 +6,7 @@
 using namespace std;
 
 
-void Greeting()
+void Greetings()
 {
     cout << "|====================|" << endl
          << "|Max Ivanov ";
@@ -61,5 +61,6 @@ int main()
     ChangeOut(x);
     ChangeOut(y);
     ChangeOut(z);
+    cout << c_calculation(x,y);
     return 0;
 }
