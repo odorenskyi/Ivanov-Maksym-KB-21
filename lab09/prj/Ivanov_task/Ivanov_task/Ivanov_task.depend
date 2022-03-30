@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1648563133 source:c:\users\axiom\desktop\bmtp lab 9\prj\ivanov_task\ivanov_task\main.cpp
+	<iostream>
+	"ModulesIvanov.h"
+
+1648418197 c:\users\axiom\desktop\bmtp lab 9\prj\modulesivanov.h
+	<cmath>
+	<windows.h>
+	<iostream>
+	<bitset>
+
