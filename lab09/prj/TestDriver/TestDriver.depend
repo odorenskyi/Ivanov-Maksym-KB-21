@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1648565288 source:c:\users\axiom\desktop\bmtp lab 9\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<ModulesIvanov.h>
+
+1648418197 c:\users\axiom\desktop\bmtp lab 9\prj\modulesivanov.h
+	<cmath>
+	<windows.h>
+	<iostream>
+	<bitset>
+
