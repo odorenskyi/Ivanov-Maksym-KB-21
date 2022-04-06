@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1649267537 source:c:\users\axiom\desktop\true_lab10\prj\testdriver\main.cpp
+	<iostream>
+	<string>
+	"ModulesIvanov.h"
+
+1649267490 c:\users\axiom\desktop\true_lab10\prj\modulesivanov.h
+	<cmath>
+	<windows.h>
+	<iostream>
+	<bitset>
+	<ctime>
+	<fstream>
+	<string>
+
