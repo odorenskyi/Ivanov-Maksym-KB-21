@@ -193,8 +193,6 @@ string addSmth(string path, string text)
                 else
                     beta[i] = text[i];
             }
-        cout << "Done" << endl;
-        return beta;
         }
         else
         {
@@ -230,10 +228,8 @@ string addSmth(string path, string text)
 
                 }
             }
-        file << beta;
-        cout << "Done" << endl;
-        return beta;
         }
+        cout << "Done" << endl;
     }
     else
         cout << "Зміна тексту error" << endl;
@@ -336,7 +332,6 @@ string PrintRule62(string path)
         t = time(NULL);
         file << ctime(&t);
         cout << "Done" << endl;
-        return ctime(&t);
     }
     else
         cout << "Написання закону error" << endl;
@@ -416,7 +411,6 @@ long CalcBin(string path, double x, double y, double z, int b)
     else
         cout << "Написання кількості символів error" << endl;
     file.close();
-    return cnt;
 }
 
 

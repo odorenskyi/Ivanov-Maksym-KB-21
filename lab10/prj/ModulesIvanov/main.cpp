@@ -2,8 +2,9 @@
 #include <windows.h>
 #include <iostream>
 #include <bitset>
-#include <string>
 #include <ctime>
+#include <fstream>
+#include <string>
 using namespace std;
 
 
@@ -32,11 +33,11 @@ float Deposite(float dep, short strok)
     return month;
 }
 
-short Bolfort(float jan[])
+int Bolfort(float jan[])
 {
-    short sz = 31;
+    int sz = 31;
     float bolfort[sz];
-    short maximum = 0;
+    int maximum = 0;
     for (int i = 0; i < sz; i++)
     {
         if (jan[i] < 0.3)
@@ -124,6 +125,8 @@ int BitNumber(int num)
     return 32 - b_number.count();
 }
 
+
+
 string greetings()
 {
     return "==============================\n"
@@ -190,8 +193,6 @@ string addSmth(string path, string text)
                 else
                     beta[i] = text[i];
             }
-        cout << "Done" << endl;
-        return beta;
         }
         else
         {
@@ -227,9 +228,8 @@ string addSmth(string path, string text)
 
                 }
             }
-        cout << "Done" << endl;
-        return beta;
         }
+        cout << "Done" << endl;
     }
     else
         cout << "Зміна тексту error" << endl;
@@ -282,7 +282,7 @@ string addSmth(string path, string text)
 
 
 
-long PrintRule62(string path)
+string PrintRule62(string path)
 {
     string rule;
     fstream file(path, ios::out);
@@ -370,6 +370,7 @@ long PrintRule62(string path)
 
 long CalcBin(string path, double x, double y, double z, int b)
 {
+
     fstream file(path, ios::out);
     if(file.is_open())
     {
@@ -410,7 +411,6 @@ long CalcBin(string path, double x, double y, double z, int b)
     else
         cout << "Написання кількості символів error" << endl;
     file.close();
-    return cnt;
 }
 
 
@@ -444,6 +444,3 @@ void HowManySymbols(string path)
         cout << "Написання кількості символів error" << endl;
     file.close();
 }
-
-
-
