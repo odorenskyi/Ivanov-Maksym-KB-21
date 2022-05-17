@@ -12,7 +12,7 @@ using namespace std;
 
 string inputData(string msg);
 
-void addUnit(Settings * root);
+void addUnit(Settings *&root);
 
 void deleteUnit(Settings *&root);
 

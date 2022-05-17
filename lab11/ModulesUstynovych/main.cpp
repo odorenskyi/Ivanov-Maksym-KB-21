@@ -11,20 +11,24 @@ string inputData(string msg)
 }
 
 
-void addUnit(Settings * root)
+void addUnit(Settings *&root)
 {
-
-    Settings *buff = root;
-    while (buff->next != nullptr)
+    Settings * buff = nullptr;
+    if(root == nullptr)
     {
-        buff = buff->next;
+        root = new Settings;
+        buff = root;
     }
-    if(buff != root)
+    else
     {
+        buff = root;
+        while (buff->next != nullptr)
+        {
+            buff = buff->next;
+        }
         buff->next = new Settings();
         buff = buff->next;
     }
-
     strcpy(buff->numSelection, inputData("Уведіть номер розділу: ").c_str());
     strcpy(buff->nameSelection, inputData("Уведіть назву розділу: ").c_str());
     strcpy(buff->codeUnit, inputData("Уведіть номер товару: ").c_str());
@@ -34,8 +38,8 @@ void addUnit(Settings * root)
 
 void deleteUnit(Settings *&root)
 {
-    Settings *find = root;
     Settings *buff = nullptr;
+    Settings *find = root;
 
     char searchCode[4] = "";
     cout << endl << "Уведіть код запису, запис якого хочете видалити: ";
