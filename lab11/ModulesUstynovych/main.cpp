@@ -29,10 +29,10 @@ void addUnit(Settings *&root)
         buff->next = new Settings();
         buff = buff->next;
     }
-    strcpy(buff->numSelection, inputData("Óâåä³òü íîìåð ðîçä³ëó: ").c_str());
-    strcpy(buff->nameSelection, inputData("Óâåä³òü íàçâó ðîçä³ëó: ").c_str());
-    strcpy(buff->codeUnit, inputData("Óâåä³òü íîìåð òîâàðó: ").c_str());
-    strcpy(buff->nameUnit, inputData("Óâåä³òü íàçâó òîâàðó: ").c_str());
+    strcpy(buff->numSelection, inputData("Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð¾Ð¼ÐµÑ€ Ñ€Ð¾Ð·Ð´Ñ–Ð»Ñƒ: ").c_str());
+    strcpy(buff->nameSelection, inputData("Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ñ€Ð¾Ð·Ð´Ñ–Ð»Ñƒ: ").c_str());
+    strcpy(buff->codeUnit, inputData("Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð¾Ð¼ÐµÑ€ Ñ‚Ð¾Ð²Ð°Ñ€Ñƒ: ").c_str());
+    strcpy(buff->nameUnit, inputData("Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ñ‚Ð¾Ð²Ð°Ñ€Ñƒ: ").c_str());
 
 }
 
@@ -42,7 +42,7 @@ void deleteUnit(Settings *&root)
     Settings *find = root;
 
     char searchCode[4] = "";
-    cout << endl << "Óâåä³òü êîä çàïèñó, çàïèñ ÿêîãî õî÷åòå âèäàëèòè: ";
+    cout << endl << "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÐºÐ¾Ð´ Ð·Ð°Ð¿Ð¸ÑÑƒ, Ð·Ð°Ð¿Ð¸Ñ ÑÐºÐ¾Ð³Ð¾ Ñ…Ð¾Ñ‡ÐµÑ‚Ðµ Ð²Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸: ";
     cin >> searchCode;
 
     while(find != nullptr)
