@@ -1,0 +1,30 @@
+Width : 39.00
+Length: 29.20
+Area  : 3577.645
+Width : 0
+Length: 0
+Area  : 0
+Width : 22.40
+Length: 31.00
+Area  : 2181.521
+Width : 48.70
+Length: 35.90
+Area  : 5492.540
+Width : 65.20
+Length: 98.70
+Area  : 20216.902
+Width : 39.10
+Length: 54.70
+Area  : 6719.144
+Width : 25.60
+Length: 72.90
+Area  : 5862.965
+Width : 80.20
+Length: 95.70
+Area  : 24112.163
+Width : 11.10
+Length: 86.00
+Area  : 2998.964
+Width : 1
+Length: 12
+Area  : 37.699
